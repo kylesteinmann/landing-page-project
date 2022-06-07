@@ -57,7 +57,7 @@ ul {
 
 .banner-left {
     display:flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     flex-direction:column;
 }
@@ -82,10 +82,12 @@ ul {
 }
 
 .banner-image {
+    display:flex;
     align-self:flex-end;
     justify-self:center;
     width: 350px;
     margin-left:100px;
+
 }
 
 /* Information Section CSS */
@@ -107,10 +109,10 @@ ul {
     display:flex;
     flex-direction:row;
     
+    
 }
 
 .information-pairs p {
-    display:flex;
     width:200px;
 }
 
@@ -200,4 +202,12 @@ button {
     align-self: center;
     align-items:center;
     justify-content: center;
+}
+
+/* Footer Section */
+
+footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
