@@ -78,7 +78,7 @@ ul {
 
 .banner p {
     margin:0;
-    padding:0;
+    padding:0 0 5px 0;
 }
 
 .banner-image {
@@ -115,7 +115,7 @@ ul {
 }
 
 .information img {
-    border:solid #3882f6 2px;
+    border:solid #3882f6 5px;
     Width:200px;
     height:200px;
 }
@@ -163,3 +163,41 @@ button {
     margin:0;
 }
 
+/* Call to action Section */
+
+.call-to-action {
+    margin:2.5% 5%;
+    background-color:#3882f6;
+    display:flex;
+    flex-direction:row;
+    color:white;
+    justify-content: space-between;
+    align-items: center;
+    padding:2.5% 5%;
+    border-radius:25px;
+}
+
+.call-to-action div {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    padding:0;
+}
+
+.call-to-action h2 {
+    padding:0;
+    margin:0;
+}
+
+.call-to-action p {
+    padding:0;
+    margin:0;
+}
+
+.call-to-action button{
+    display: flex;
+    align-self: center;
+    align-items:center;
+    justify-content: center;
+}
